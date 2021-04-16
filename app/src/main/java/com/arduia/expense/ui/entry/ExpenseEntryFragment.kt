@@ -160,6 +160,9 @@ class ExpenseEntryFragment : Fragment() {
             }
             return@menu true
         }
+        binding.btnReset.setOnClickListener {
+            cleanUi()
+        }
     }
 
     private fun setupEntryAmountEditText() {
