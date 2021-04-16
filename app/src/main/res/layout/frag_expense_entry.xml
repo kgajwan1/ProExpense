@@ -49,6 +49,7 @@
                 android:layout_marginStart="@dimen/grid_3"
                 android:layout_marginTop="@dimen/grid_3"
                 android:layout_marginEnd="@dimen/grid_3"
+
                 android:textAlignment="viewStart">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -125,7 +126,7 @@
 
             <Button
                 android:id="@+id/btn_save"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/edl_description"
                 android:layout_marginStart="@dimen/grid_3"
@@ -134,6 +135,18 @@
                 android:layout_marginBottom="@dimen/grid_4"
                 android:layout_toStartOf="@id/cv_lock"
                 android:text="@string/save" />
+
+            <Button
+                android:id="@+id/btn_reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edl_description"
+
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"
+
+                android:layout_marginBottom="40dp"
+                android:text="Reset" />
 
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/cv_lock"
